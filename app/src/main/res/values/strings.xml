@@ -4,7 +4,6 @@
     <string name="addTask">Add Task</string>
     <string name="page_new_task">Create a New Task</string>
     <string name="lbl_ongoing_tasks">Task List</string>
-    <string name="lbl_categories">Categories</string>
     <string name="hint_search">Search</string>
     <string name="lbl_username">John Doe</string>
     <string name="lbl_welcome_morning">Hello, Good Morning!</string>
@@ -12,16 +11,10 @@
     <string name="lbl_welcome_night">Hello, Good Night!</string>
     <string name="loremipsum">Lorem ipsum dolor sit amet.</string>
     <string name="dateHolder">14.03.2023</string>
-    <string name="timeHolder">14:00</string>
-    <string name="newCategory">+ Add New Category</string>
-    <string name="pickCategory">Pick a Category</string>
     <string name="pickDueDate">PICK DUE DATE</string>
     <string name="chooseDate">Choose Due Date</string>
     <string name="chooseTime">Choose Due Time</string>
-    <string name="pickCategoryBtn">Categories</string>
-    <string name="pickedCategory">Current Category:</string>
     <string name="pickedDate">Chosen Date:</string>
-    <string name="pickedCategoryHolder">None</string>
 
     <!-- Context Description Texts -->
     <string name="condes_notification">Notification Toggle</string>

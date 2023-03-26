@@ -90,7 +90,7 @@
         android:id="@+id/pickedDueDateText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pickedCategory"
+        android:text="@string/pickedDate"
         android:textColor="?defaultText"
         android:textSize="14sp"
         android:layout_marginStart="16dp"
