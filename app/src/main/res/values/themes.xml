@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.OneTaskMan" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/alternativeButtonLight</item>
+        <item name="colorSecondaryVariant">@color/alternativeButtonLight</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?defaultBackground</item>
+        <item name="android:navigationBarColor">?defaultBackground</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- Customize your theme here. -->
+
+        <item name="defaultBackground">@color/defaultBackgroundLight</item>
+        <item name="defaultText">@color/defaultTextLight</item>
+        <item name="defaultTextField">@color/defaultTextFieldLight</item>
+        <item name="alternativeText">@color/alternativeTextLight</item>
+        <item name="alternativeComponent">@color/alternativeButtonLight</item>
+        <item name="defaultTextAlwaysLight">@color/defaultTextAlwaysLight</item>
+    </style>
+</resources>

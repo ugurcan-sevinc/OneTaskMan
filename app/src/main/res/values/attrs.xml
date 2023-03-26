@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="defaultBackground" format="color"/>
+    <attr name="defaultText" format="color"/>
+    <attr name="defaultTextField" format="color"/>
+    <attr name="alternativeText" format="color"/>
+    <attr name="alternativeComponent" format="color"/>
+    <attr name="defaultTextAlwaysLight" format="color"/>
+</resources>

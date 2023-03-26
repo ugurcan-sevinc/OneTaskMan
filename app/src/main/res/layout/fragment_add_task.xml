@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?defaultBackground"
+    tools:context=".fragment.AddTaskFragment">
+
+    <TextView
+        android:id="@+id/newTaskLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/page_new_task"
+        android:textColor="?defaultText"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/headerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_default_component"
+        android:ems="10"
+        android:hint="Task Header"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="16dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newTaskLabel" />
+
+    <EditText
+        android:id="@+id/descriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_default_component"
+        android:ems="10"
+        android:gravity="top|start"
+        android:hint="Description"
+        android:inputType="textMultiLine|textCapSentences"
+        android:justificationMode="none"
+        android:lines="10"
+        android:padding="12dp"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/headerText" />
+
+    <TextView
+        android:id="@+id/datePickerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/chooseDate"
+        android:textColor="?defaultText"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/descriptionText" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/pickDueDateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_alternative_component"
+        android:drawableStart="@drawable/ic_add"
+        android:paddingHorizontal="8dp"
+        android:text="@string/pickDueDate"
+        android:textColor="?defaultTextAlwaysLight"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/datePickerText"
+        app:layout_constraintTop_toBottomOf="@id/datePickerText" />
+
+    <TextView
+        android:id="@+id/pickedDueDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pickedCategory"
+        android:textColor="?defaultText"
+        android:textSize="14sp"
+        android:layout_marginStart="16dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="@id/pickDueDateBtn"
+        app:layout_constraintStart_toEndOf="@id/pickDueDateBtn"
+        app:layout_constraintTop_toTopOf="@id/pickDueDateBtn" />
+
+    <TextView
+        android:id="@+id/pickedDueDateHolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="24/03/2023"
+        android:textColor="?defaultText"
+        android:layout_marginStart="3dp"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/pickedDueDateText"
+        app:layout_constraintStart_toEndOf="@+id/pickedDueDateText"
+        app:layout_constraintTop_toTopOf="@+id/pickedDueDateText" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addTaskBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_alternative_component"
+        android:clickable="true"
+        android:drawableStart="@drawable/ic_add"
+        android:drawablePadding="5dp"
+        android:focusable="true"
+        android:padding="16dp"
+        android:text="@string/addTask"
+        android:textAlignment="center"
+        android:textColor="?defaultTextAlwaysLight"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
